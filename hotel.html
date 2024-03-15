@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking</title>
+  <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hotel Booking</h1>
+    <div class="room-selection">
+      <h2>Room Selection</h2>
+      <select id="room-type">
+        <option value="single">Single Room</option>
+        <option value="double">Double Room</option>
+        <option value="suite">Suite</option>
+      </select>
+    </div>
+    <div class="date-selection">
+      <h2>Date Selection</h2>
+      <input type="date" id="check-in-date">
+      <input type="date" id="check-out-date">
+    </div>
+    <div class="food-options">
+      <h2>Food Options</h2>
+      <label>
+        <input type="checkbox" id="breakfast"> Breakfast
+      </label>
+      <label>
+        <input type="checkbox" id="lunch"> Lunch
+      </label>
+      <label>
+        <input type="checkbox" id="dinner"> Dinner
+      </label>
+    </div>
+    <button id="book-now">Book Now</button>
+  </div>
+
+  <script src="hotel.js"></script>
+</body>
+</html>
