@@ -1,0 +1,413 @@
+*{
+    margin: 0px;
+}
+.banner_section{
+    background-image: url(image/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    
+}
+
+/* .banner_section_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+} */
+.banner_heading{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 10%;
+}
+.banner_card_sub_nav{
+    background-color: rgba(0, 0, 0, 0.427);
+    height: 40px;
+    width: 20%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1px;
+    border-radius: 2px;
+    margin-top: 50px;
+}
+
+.banner_card_sub_nav p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 8px;
+}
+.banner_card_sub_nav p:hover{
+    color: rgb(5, 168, 255);
+    cursor: pointer;
+}
+.banner_card_2{
+    
+    height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: none;
+}
+.Hotels{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.559);
+    border-radius: 10px;
+    box-shadow: 08px 5px 5px 0px rgba(0, 0, 0, 0.856);
+    border: none;
+}
+.banner_card_2_para{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    width: auto;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 1px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.Flights{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.559);
+    border-radius: 10px;
+    box-shadow: 08px 5px 5px 0px rgba(0, 0, 0, 0.856);
+    border: none;
+}
+.Cars{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.559);
+    border-radius: 10px;
+    box-shadow: 08px 5px 5px 0px rgba(0, 0, 0, 0.856);
+    border: none;
+}
+.Hotels_btn{
+    background-color: rgb(5, 168, 255);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+/* banner bottom section */
+.banner_bottom_section{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-top: -45px;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    margin-bottom: 10px;
+
+}
+.banner_bottom_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.banner_bottom_card_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.banner_bottom_card_text h1{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+.banner_bottom_card_text p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+
+
+/* Popular Place to Visit  */
+.popular_place_heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.popular_place_cards{
+    display:flex;
+    flex-direction: row;
+    
+}
+.place_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    
+    box-shadow:0px 0px 10px 04px rgba(171, 170, 170, 0.581) ;
+    border-radius: 5px;
+}
+.place_card p{
+    text-align: center;
+}
+.place_card_image{
+    height: 180px;
+    width: 240px;
+    border-radius: 5px;
+}
+.place_card_head{
+    font-family:sans-serif ;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.place_card_para{
+    font-size: 14px;
+    font-family:  sans-serif;
+    font-weight: 100px;
+}
+.place_card_dollor{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.place_card_btn{
+    background-color: rgb(47, 196, 255);
+    color: white;
+    padding-left: 28px;
+    padding-right: 28px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.popular_place_view_more{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.popular_place_view_more_btn{
+    background-color: white;
+    color: rgb(47, 196, 255);
+    height: 50px;
+    width: 50px;
+    border-color: rgb(47, 196, 255);
+    border-radius: 50px;
+}
+
+
+
+
+
+/*  Top Destinations  */
+
+.top_destination_heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.top_destination_gallary{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.gallary_card_1{
+    background-image: url('image/thanjay_1.jpeg');
+    background-size: cover;
+    background-color: aqua;
+    height: 500px;
+    width: 380px;
+    border-radius: 10px;
+    
+}
+.gallary_card_2{
+    display: flex;
+    flex-direction: column;
+}
+.gallary_card_2_img_1{
+    background-image: url('https://img.freepik.com/free-photo/india-woods-hill-station-fog-coffee_1376-22.jpg?t=st=1709104502~exp=1709108102~hmac=93624d8743b96b23aa19a5d46148a16a7a4548babac1ad7571f3f53de1428f6b&w=1380');
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    height: 240px;
+    width: 520px;
+    margin-left: 20px;
+    border-radius: 10px;
+   
+}
+.gallary_card_2_img_1:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.679) ;
+}
+
+.gallary_card_2_img_2{
+    background-image: url('image/ooty.jpg');
+    background-size: cover;
+    background-color: black;
+    height: 240px;
+    width: 520px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.gallary_card_3{
+    display: flex;
+    flex-direction: column;
+}
+.gallary_card_2_img_3{
+    background-image: url('image/ooty.jpg');
+    background-size: cover;
+    background-color: black;
+    height: 240px;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.gallary_card_2_img_4{
+    background-image: url('image/swimming-pool.jpg');
+    background-size: cover;
+    background-color: black;
+    height: 240px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.top_destination_button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.top_destination_btn{
+    background-color: #2FC4FF;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 5px 10px 2px rgba(0, 158, 244, 0.845);
+}
+.gallary_card_para{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #ffffff;
+}
+.gallary_card_para_icon_section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60%;
+    align-items: flex-end;
+    padding-right: 20px;
+    padding-bottom: 0px;
+   
+}
+.gallary_card_para_icon_card{
+    background-color: #fafafa82;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin-top: 8%;
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;    
+}
+.gallary_card_para_icon_card_2_img_1{
+    background-color: #fafafa82;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.gallary_card_para_icon_section_card_2_img_1{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-end;
+    padding-right: 20px;
+   
+   
+}
+
+/* Watch vedio  */
+.watch_vedio{
+    width: 100%;
+    height: 550px;
+    background-image: url('image/tranquil-scene-flowing-water-forest-generated-by-ai.jpg');
+    /* position: relative; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+   
+}
+.watch_vedio_card{
+    width:80%;
+    height: 550px;
+    background-image: url(image/vedio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    margin-left: 150px;
+    margin-top: -250px;
+}
+
